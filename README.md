@@ -5,12 +5,16 @@ when hovered over. This is useful when there are so many CMS menu items that
 screen space becomes an issue.
 
 ## Basic Usage
-In order to group CMS menu items together, the `GroupedCmsMenu::group()` function
-is used. The grouping code should normally go in `mysite/_config.php`. In the
+In order to group CMS menu items together, define your menu groups in your config.yml file. 
 example below, CMSMain (Pages) and AssetAdmin (Files &amp; Images) are grouped
 together under a "Content" heading:
 
-	GroupedCmsMenu::group('Content', array('CMSMain', 'AssetAdmin'));
+```
+LeftAndMain:
+  menu_groups:
+    CMSMain: Content
+    AssetAdmin: Content
+```
 
 ## Maintainer Contacts
 * Andrew Short (<andrew@silverstripe.com.au>)
