@@ -1,3 +1,9 @@
 .cms-menu-list li.current li a{
-	padding-left: 30px;
+	padding-left: 20px;
+}
+
+.cms-menu-list li a .toggle-children {
+	position: absolute;
+	right: 0;
+	top: 10px;
 }

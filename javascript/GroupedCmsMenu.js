@@ -1,7 +1,7 @@
 ;(function ($) {
 
-	$.entwine('ss', function($){
-
+	$.entwine('ss.groupedcmsmenu', function($){
+		
 	});
 
 })(jQuery);

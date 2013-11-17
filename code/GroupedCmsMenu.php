@@ -31,10 +31,10 @@ class GroupedCmsMenu extends Extension {
 		}
 
 		foreach (GroupedList::create($items)->groupBy('Group') as $group => $children) {
+
 			if (count($children) > 1) {
 				$active = false;
 
-				//var_dump(count($children));
 				foreach ($children as $child) {
 					if ($child->LinkingMode == 'current') $active = true;
 				}

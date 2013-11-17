@@ -12,7 +12,7 @@ together under a "Content" heading:
 ```
 LeftAndMain:
   menu_groups:
-    CMSMain: Content
+    CMSPagesController: Content
     AssetAdmin: Content
 ```
 
